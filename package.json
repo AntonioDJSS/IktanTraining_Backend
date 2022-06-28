@@ -1,0 +1,26 @@
+{
+  "name": "iktantraining",
+  "version": "1.0.0",
+  "description": "Pagina de inicio de Iktan Training",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Antonio Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "connect-multiparty": "^2.2.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.3",
+    "mongoose": "^6.4.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
